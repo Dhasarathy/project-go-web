@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY go.mod .
 
-RUN go nod download
+RUN go mod download
 
 COPY . .
 
